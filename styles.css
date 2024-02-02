@@ -61,9 +61,13 @@ body {
 }
 
 .notifications__header_title {
-    font-size: var(--fs-lg);
     font-weight: var(--fw-bold);
     color: var(--colorVeryDarkBlue);
+}
+
+.notifications__header_title h1 {
+    font-size: var(--fs-lg);
+    display: unset;
 }
 
 .notifications__header_read {
